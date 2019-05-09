@@ -1,0 +1,38 @@
+[
+    {
+        "src": "./components/assets/images/aria.jpg"
+    },
+    {
+        "src": "./components/assets/images/benjen.jpg"
+    },
+    {
+        "src": "./components/assets/images/children.jpg"
+    },
+    {
+        "src": "./components/assets/images/danny.jpg"
+    },
+    {
+        "src": "./components/assets/images/greyjoy.jpg"
+    },
+    {
+        "src": "./components/assets/images/jonsnow.jpg"
+    },
+    {
+        "src": "./components/assets/images/logo.jpg"
+    },
+    {
+        "src": "./components/assets/images/nightking.jpg"
+    },
+    {
+        "src": "./components/assets/images/sansa.jpg"
+    },
+    {
+        "src": "./components/assets/images/throne.jpg"
+    },
+    {
+        "src": "./components/assets/images/tyrion.jpg"
+    },
+    {
+        "src": "./components/assets/images/younglion.jpg"
+    }
+]
