@@ -62,6 +62,7 @@ export default class Board extends Component {
         } else {
             let clicked = {};
             this.setState({clicked}, this.props.restart);
+            alert(`Game Over!\nYou Guessed ${this.props.score} Correctly`)
         }
     }
 

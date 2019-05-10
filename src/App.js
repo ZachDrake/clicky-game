@@ -25,7 +25,11 @@ class App extends Component {
       <div>
         <Nav score={this.state.score} highScore={this.state.highScore}/>
         <Jumbotron />
-        <Board restart={this.restart} updateScore={this.updateScore} cards={this.state.cards} />
+        <Board restart={this.restart}
+         updateScore={this.updateScore}
+         cards={this.state.cards} 
+         score={this.state.score} />
+
       </div>
     );
   }
