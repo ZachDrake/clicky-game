@@ -28,8 +28,7 @@ export default class Board extends Component {
         this.shuffle(cards, shuffled => {
             console.log(shuffled)
             this.setState({
-                cards: shuffled,
-                
+                cards: shuffled
             })
         })
     }
@@ -44,13 +43,11 @@ export default class Board extends Component {
                     this.props.updateScore((state, props) => {
                         console.log(state);
                         if (state.score >= state.highScore){
-                            console.log('hit condition 1');
                             return {
-                                score: state.score + 1, // state.value is 1 in this case because of previous `setState`.
+                                score: state.score + 1, 
                                 highScore: state.highScore + 1
                             };
                         } else {
-                            console.log('hit condition 2');
                             return {
                                 score: state.score + 1
                             }
@@ -94,16 +91,6 @@ export default class Board extends Component {
                         )
                     }
                 })}
-                {/*
-
-                    <div className="col-sm-2">
-                        test
-                    </div>
-                    <div className="col-sm-2">
-                        test
-                    </div>
-                </div> */}
-
             </div>
         );
     }
