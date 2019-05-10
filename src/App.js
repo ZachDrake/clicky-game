@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Nav from './components/nav/Nav';
 import Jumbotron from './components/jumpbotron/Jumbotron';
 import Board from './components/board/Board';
-import { throwStatement } from '@babel/types';
 
 
 class App extends Component {

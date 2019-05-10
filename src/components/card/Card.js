@@ -7,11 +7,6 @@ import React from 'react';
 
 
 function Card(props) {
-    let imgStyle = {
-        height: "200px",
-        width: "200px",
-        borderRadius: "20px"
-    }
     return (
         <img className="imgCard" onClick={() => props.handleClick(props.src)} src={props.src} alt={props.src} />
 );
