@@ -1,0 +1,16 @@
+.nav {
+    background-color: slategray;
+    padding: 15px;
+}
+
+.imgCard {
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    display: inline-flex;
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+}
+
+.imgCard:hover {
+    border: solid black 2px;
+}
