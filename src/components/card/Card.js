@@ -1,11 +1,19 @@
-import React from "react";
+import React from 'react';
+//import cardinfo from '../../cards.json';
 
 
-function Card() {
+// let i = Math.floor(Math.random()* 12) -1;
+// console.log(cardinfo)
+
+
+function Card(props) {
+    let imgStyle = {
+        height: "200px",
+        width: "200px",
+        borderRadius: "20px"
+    }
     return (
-        <div className="card">
-            <img src="../assets/images/aria.jpg" className="card-img"></img>
-        </div>
+        <img className="imgCard" onClick={() => props.handleClick(props.src)} src={props.src} alt={props.src} />
 );
 }
 
